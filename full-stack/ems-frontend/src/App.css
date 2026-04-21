@@ -1,0 +1,14 @@
+.footer {
+    /* Remove position: absolute and bottom: 0 */
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+    /* Add these to make it behave correctly */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto; /* This is the secret sauce for Flexbox footers */
+}
