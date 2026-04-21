@@ -1,23 +1,44 @@
-# Dependencies
+# ======================
+# Node / React
+# ======================
 node_modules/
+dist/
+build/
+*.log
 
 # Environment variables
 .env
 
-# Build folders
-dist/
-build/
+# ======================
+# Java / Spring Boot
+# ======================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
 
 # Logs
+logs/
 *.log
 
-# OS files
+# ======================
+# OS Files
+# ======================
 .DS_Store
 Thumbs.db
 
-# Editor folders
+# ======================
+# IDE / Editor
+# ======================
 .vscode/
 .idea/
+*.iml
 
-# Optional: package lock (keep if you want reproducible installs)
+# ======================
+# Optional
+# ======================
 # package-lock.json
